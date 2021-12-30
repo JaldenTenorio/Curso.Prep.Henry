@@ -31,7 +31,6 @@ function devolverString(str) {
 
         return (str);
 }
-      devolverString();
 
 
 function suma(x, y) {
@@ -42,7 +41,6 @@ function suma(x, y) {
         var resultado = x + y;
         return(resultado);
 }
-      suma();
 
 
 function resta(x, y) {
@@ -52,7 +50,6 @@ function resta(x, y) {
         var resultado = x - y;
         return(resultado);
 }
-      resta();
 
 
 function multiplica(x, y) {
@@ -62,7 +59,6 @@ function multiplica(x, y) {
         var resultado = x * y;
         return(resultado);
 }
-      multiplica();
 
 
 function divide(x, y) {
@@ -72,7 +68,6 @@ function divide(x, y) {
         var resultado = x / y;
         return(resultado);
 }
-      divide();
 
 
 function sonIguales(x, y) {
@@ -83,7 +78,6 @@ function sonIguales(x, y) {
         var resultado = x === y;
             return(resultado);
 }
-      sonIguales();
 
 
 function tienenMismaLongitud(str1, str2) {
@@ -110,7 +104,6 @@ function menosQueNoventa(num) {
         }
           return false;
 }
-        menosQueNoventa(40);
 
 
 function mayorQueCincuenta(num) {
