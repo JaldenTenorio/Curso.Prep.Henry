@@ -75,8 +75,11 @@ function sonIguales(x, y) {
   // De lo contrario, devuelve "false"
   // Tu código:
 
-        var resultado = x === y;
-            return(resultado);
+        if (x === y) {
+          return true;
+        }else {
+          return false;
+        }
 }
 
 
@@ -116,7 +119,6 @@ function mayorQueCincuenta(num) {
       }
         return false;
 }
-      mayorQueCincuenta(60);
 
 
 function obtenerResto(x, y) {
@@ -126,7 +128,6 @@ function obtenerResto(x, y) {
       var operacion = x % y;
         return (operacion);
 }
-      obtenerResto();
 
 
 function esPar(num) {
@@ -139,7 +140,6 @@ function esPar(num) {
       }
         return false;
 }
-      esPar();
 
 
 function esImpar(num) {
@@ -152,7 +152,6 @@ function esImpar(num) {
       }
         return false;
 }
-      esImpar();
 
 
 function elevarAlCuadrado(num) {
@@ -163,7 +162,6 @@ function elevarAlCuadrado(num) {
       var num = Math.pow(num, 2);
         return num;
 }
-      elevarAlCuadrado();
 
       
 function elevarAlCubo(num) {
@@ -173,7 +171,6 @@ function elevarAlCubo(num) {
       var num = Math.pow(num, 3);
         return num;
 }
-      elevarAlCubo();
 
 
 function elevar(num, exponent) {
@@ -183,7 +180,6 @@ function elevar(num, exponent) {
       var num = Math.pow(num, exponent);
         return num;
 }
-      elevar();
 
 
 function redondearNumero(num) {
@@ -193,7 +189,6 @@ function redondearNumero(num) {
       var num = Math.round(num); 
         return num;
 }
-      redondearNumero();
 
 
 function redondearHaciaArriba(num) {
@@ -203,7 +198,6 @@ function redondearHaciaArriba(num) {
       var num = Math.ceil(num);
         return num;
 }
-      redondearHaciaArriba();
 
 
 function numeroRandom() {
@@ -213,7 +207,6 @@ function numeroRandom() {
       var num = Math.random(1);
         return num; 
 }
-      numeroRandom();
 
 
 function esPositivo(numero) {
@@ -231,7 +224,6 @@ function esPositivo(numero) {
           return false;
   }
 }
-      esPositivo();
 
 
 function agregarSimboloExclamacion(str) {
@@ -250,8 +242,6 @@ function combinarNombres(nombre, apellido) {
 
       return nombre+" "+apellido; 
 }
-      combinarNombres();
-
 
 function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:

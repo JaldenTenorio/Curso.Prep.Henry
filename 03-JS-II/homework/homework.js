@@ -257,7 +257,7 @@ function tablaDelSeis(){
   //Escribe tu código aquí   
 
       let tablaDelSeis = [];
-      for (var i = 0; i <= 10; i++) {
+      for (let i = 0; i <= 10; i++) {
         tablaDelSeis.push(i * 6);
       } 
       return tablaDelSeis;
